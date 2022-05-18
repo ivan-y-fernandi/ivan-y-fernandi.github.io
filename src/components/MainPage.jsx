@@ -23,6 +23,19 @@ const MainContainer = styled.div`
   justify-content: center;
   color: ${({ theme }) => theme.colors.textDefault};
 
+  ::after{
+    content:"";
+    position:fixed; /* stretch a fixed position to the whole screen */
+    top:0;
+    height:100vh; /* fix for mobile browser address bar appearing disappearing */
+    z-index:-1; /* needed to keep in the background */
+    background-image: url('/img/mapBackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left bottom;
+  }
+
   @media (max-width: 768px) {
     padding-bottom: 2.5rem;
   }

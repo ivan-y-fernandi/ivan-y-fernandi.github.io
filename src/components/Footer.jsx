@@ -70,7 +70,7 @@ export const Footer = () => (
     <Message>¡Los esperamos!</Message>
     <Signature>
       <Heart iconHeight={16} />
-      <h1>Iván y Fernanda</h1>
+      <h1>Iván y Fer</h1>
       <Heart iconHeight={16} />
     </Signature>
   </Section>

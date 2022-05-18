@@ -40,7 +40,7 @@ const Container = styled.div`
 const FlowersLeft = styled.img.attrs({
   src: "/img/flowers.svg"
 })`
-  opacity: 0.8;
+  opacity: 0.9;
   position: absolute;
   left: 0;
   top: -1.5rem;
@@ -49,7 +49,7 @@ const FlowersLeft = styled.img.attrs({
 const FlowersRight = styled.img.attrs({
   src: "/img/flowers.svg"
 })`
-  opacity: 0.8;
+  opacity: 0.9;
   position: absolute;
   right: 0;
   bottom: -1.5rem;
@@ -94,7 +94,7 @@ export const Header = () => (
       <Content>
         <p>Nos Casamos!</p>
         <Heart />
-        <h1>Ivan & Fer</h1>
+        <h1>Iván y Fernanda</h1>
         <p>25/03/2023</p>
       </Content>
       <Frase>Y queremos compartir con ustedes este momento tan especial</Frase>
