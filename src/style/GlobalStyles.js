@@ -38,10 +38,21 @@ export const GlobalStyles = createGlobalStyle`
     color: ${({theme}) => theme.colors.textDefault};
     font-size: 1rem;
     font-family: ${({theme}) => theme.fonts.default};
-  }
+  } 
 
   h1, h2, h3 {
     font-weight: 500;
     font-family: ${({theme}) => theme.fonts.italic};
+  }
+
+  a {
+    text-decoration: none;
+    color: ${({theme}) => theme.colors.textDefault};
+  }
+
+  a:hover, a:focus {
+    text-decoration: none;
+    color: theme.colors.textDefault};
+    opacity: 0.8;
   }
 `;

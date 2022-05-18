@@ -4,7 +4,6 @@ export const CardContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: fit-content;
   padding: 2rem;
   gap: 1.25rem;
   border-radius: 0.5rem;
