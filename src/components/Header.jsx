@@ -1,12 +1,12 @@
 import styled from 'styled-components';
-import { transparentize } from 'polished';
+import { lighten } from 'polished';
 import { Heart } from './common';
 import { Countdown } from './Countdown';
 
 const Section = styled.div`
   position: relative;
   width: 100%;
-  background-color: ${({ theme }) => transparentize(0.4, theme.colors.secondary)};
+  background-color: ${({ theme }) => lighten(0.1, theme.colors.secondary)};
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,7 +94,7 @@ export const Header = () => (
       <Content>
         <p>Nos Casamos!</p>
         <Heart />
-        <h1>Iván y Fernanda</h1>
+        <h1>Iván y Fer</h1>
         <p>25/03/2023</p>
       </Content>
       <Frase>Y queremos compartir con ustedes este momento tan especial</Frase>

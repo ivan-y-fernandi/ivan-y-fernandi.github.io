@@ -38,7 +38,24 @@ export const GlobalStyles = createGlobalStyle`
     color: ${({theme}) => theme.colors.textDefault};
     font-size: 1rem;
     font-family: ${({theme}) => theme.fonts.default};
+    background-image: url('/img/mapBackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
   } 
+
+  body::after{
+    content:"";
+    position:fixed; /* stretch a fixed position to the whole screen */      top:0;
+    height:100vh; /* fix for mobile browser address bar appearing disappearing */
+    left:0;
+    right:0;
+    z-index:-1; /* needed to keep in the background */
+    background-image: url('/img/mapBackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+  }
 
   h1, h2, h3 {
     font-weight: 500;
