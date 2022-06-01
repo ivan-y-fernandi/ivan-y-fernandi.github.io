@@ -94,7 +94,7 @@ export const Header = () => (
       <Content>
         <p>Nos Casamos!</p>
         <Heart />
-        <h1>Iván y Fer</h1>
+        <h1>Iván & Fer</h1>
         <p>25/03/2023</p>
       </Content>
       <Frase>Y queremos compartir con ustedes este momento tan especial</Frase>
