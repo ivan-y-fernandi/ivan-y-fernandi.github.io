@@ -14,7 +14,7 @@ export const CeremonyCard = () => (
         <br />
         Av. 24 de Septiembre 1281
         <br />
-        20:30 hs.
+        20:10 hs.
       </p>
     </Card.Content>
     <Button

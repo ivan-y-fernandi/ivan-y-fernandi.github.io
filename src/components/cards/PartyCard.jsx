@@ -14,7 +14,7 @@ export const PartyCard = () => (
         <br />
         Progreso 59, Villa Allende, Córdoba
         <br />
-        21:30 hs.
+        22:00 hs (se ruega puntualidad)
       </p>
     </Card.Content>
     <p><b>Dress code:</b> formal</p>
